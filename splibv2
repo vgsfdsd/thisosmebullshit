@@ -1657,7 +1657,7 @@ end
 
 function splib:MakeWindow(Configs)
 
-    local ToggleIcon = tostring(Configs.ToggleIcon or "rbxassetid://136765913643142")
+    local ToggleIcon = tostring(Configs.ToggleIcon or "rbxassetid://86434410365514")
     local WTitle     = Configs[1] or Configs.Name or Configs.Title or "SP Lib v2"
     local WMiniText  = Configs[2] or Configs.SubTitle or Configs.SubName or "by : nickkjkj (thanks for the UI)"
 
@@ -1670,7 +1670,7 @@ function splib:MakeWindow(Configs)
     Settings.ScriptFile = Configs[3] or Configs.ConfigFolder or Configs.SaveFolder or false
     
    local EnableSetting = (Configs.Setting or Configs.ShowSetting) == true
-   local ToggleIcon = tostring(Configs.ToggleIcon or "rbxassetid://83114982417764")
+   local ToggleIcon = tostring(Configs.ToggleIcon or "rbxassetid://86434410365514")
     local HidePremium  = Configs.HidePremium == true
     local SaveConfig   = Configs.SaveConfig == true
     local Callback = Configs.Callback or function() end
