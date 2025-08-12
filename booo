@@ -1659,7 +1659,7 @@ function splib:MakeWindow(Configs)
 
     local ToggleIcon = tostring(Configs.ToggleIcon or "rbxassetid://86434410365514")
     local WTitle     = Configs[1] or Configs.Name or Configs.Title or "SP Lib v2"
-    local WMiniText  = Configs[2] or Configs.SubTitle or Configs.SubName or "updated : nickkjkj (thanks @nadermohamed5655 for the UI and @iyre for the reach)"
+    local WMiniText  = Configs[2] or Configs.SubTitle or Configs.SubName or "updated by nickkjkj"
 
 
 function splib:MakeWindow(Configs)
